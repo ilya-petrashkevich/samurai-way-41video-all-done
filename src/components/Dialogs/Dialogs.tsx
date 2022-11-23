@@ -7,7 +7,7 @@ import {
     DialogsType,
     MessagesType,
     newMessageBodyType
-} from "../redux/state";
+} from "../redux/store";
 import {sendMessageAC, updateNewMessageBodyAC} from "../redux/dialogs-reduser"
 
 type DialogsPropsType = {
